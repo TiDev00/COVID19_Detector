@@ -1,7 +1,14 @@
-# COVID19_Detector
+# Detecting COVID-19 with Chest X-Ray using PyTorch
 
-In this notebook we are using X-rays scans images to detect COVID19 and pulmonary diseases. We use Pytorch to apply mutiple transformations to our images tensors and feed them to a residual neural network (ResNet18).
+Train a model on a COVID-19 Radiography dataset, comprising nearly 3000 Chest X-Ray scans categorized into Normal, Viral Pneumonia, and COVID-19 classes. A practical implementation of Convolutional Neural Networks (CNNs) and optimization techniques.
 
-We use the kaggle dataset https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database/download to train and evaluate the model.
+## Learning Objectives
+- Create custom Dataset and DataLoader in PyTorch
+- Train a ResNet-18 model for Image Classification
 
-Metrics like accuracy, sensitivity, confusion matrix are also presented.
+## Skills Practiced
+- Machine Learning
+- Deep Learning
+- Statistical Classification
+- PyTorch
+- Medical Imaging

@@ -4,7 +4,7 @@ Train a model on a [COVID-19 Radiography dataset](https://www.kaggle.com/dataset
 
 ## Learning Objectives
 - Create custom Dataset and DataLoader in PyTorch
-- Train a ResNet-18 model for Image Classification
+- Train a ResNet model for Image Classification
 
 ## Skills Practiced
 - Machine Learning

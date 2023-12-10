@@ -12,3 +12,20 @@ Train a model on a [COVID-19 Radiography dataset](https://www.kaggle.com/dataset
 - Statistical Classification
 - PyTorch
 - Medical Imaging
+
+## Model Performance
+
+After training the model for 30 epochs, the following performance metrics were achieved on the test set:
+
+- Test Accuracy: 87.25%
+
+### Classification Report for Test Set
+
+| Class    | Precision | Recall | F1-Score | Support |
+|----------|-----------|--------|----------|---------|
+| Normal   | 0.97      | 0.85   | 0.91     | 1019    |
+| Viral    | 0.70      | 0.96   | 0.81     | 134     |
+| COVID-19 | 0.74      | 0.89   | 0.81     | 361     |
+
+- Overall Accuracy: 87.25%
+- Weighted F1-Score: 0.88
